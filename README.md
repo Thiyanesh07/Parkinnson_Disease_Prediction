@@ -16,7 +16,7 @@
 
 - Target Variable: status - 1 for Parkinson's, 0 for healthy.
 
--Key Features: The model identified that features related to vocal pitch instability and variation, such as PPE (Pitch Period Entropy) and spread1, are highly predictive.
+- Key Features: The model identified that features related to vocal pitch instability and variation, such as PPE (Pitch Period Entropy) and spread1, are highly predictive.
 
 ## 3. Machine Learning Workflow
 
