@@ -1,0 +1,39 @@
+Parkinson's disease is a progressive neurodegenerative disorder, which means it is a condition that worsens
+over time and is caused by the gradual loss of nerve cells in the brain. Primarily, it affects the part 
+of the brain responsible for controlling movement.
+
+
+Common Non-Motor Symptoms:
+
+It's important to know that Parkinson's is more than just a movement disorder. It can cause a wide range of other issues, including:
+
+- Speech Changes
+
+- Loss of Smell (Anosmia)
+
+- Cognitive Issues: Problems with memory, planning, and attention.
+
+- Mood Disorders: Depression and anxiety are very common.
+
+- Sleep Problems: Insomnia, fatigue, and acting out dreams.
+
+- Constipation and Bladder Issues.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+- PPE (Pitch Period Entropy):  PPE is a measure of the variability and complexity of the pitch in a person's voice
+
+- spread1: This is a measure of the variation in the fundamental frequency of the voice 
+
+- MDVP:Fo(Hz) (Average Vocal Fundamental Frequency): This is the average pitch of the voice, measured in Hertz (Hz).
+
+- spread2: The fact that two different metrics for frequency spread are highly ranked emphasizes that the consistency and stability of vocal pitch are critically affected by the disease.
+
+- MDVP:Flo(Hz) (Minimum Vocal Fundamental Frequency): This is the lowest pitch the voice reaches.
+
+- Jitter:DDP: Jitter refers to the short-term variability in the fundamental frequency of the voice.
+
+- NHR (Noise-to-Harmonics Ratio): This measures the ratio of noise to tonal components in the voice. 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
