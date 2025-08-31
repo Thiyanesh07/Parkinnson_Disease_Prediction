@@ -6,7 +6,7 @@
 
 - A machine learning pipeline was developed that includes feature selection, data preprocessing, and model training to achieve high accuracy. The final model is deployed in an interactive web application built with Streamlit, allowing users to input voice feature data and receive a real-time prediction.
 
-## Live App Link : 
+## Live App Link : https://parkinnson-disease-prediction-07.streamlit.app/
 
 ## 2. The Dataset
 
@@ -107,3 +107,6 @@ The final tuned XGBoost model achieved a robust and reliable performance, with a
 
 This project successfully demonstrates the potential of using machine learning on vocal measurements for the early detection of Parkinson's disease. By following a rigorous workflow including automated feature selection and robust cross-validation, a high-accuracy XGBoost model was developed.
 
+
+### Author
+### Thiyanesh D
