@@ -45,7 +45,7 @@ for i, feature in enumerate(selected_features):
             max_value=max_val,
             value=None,
             step=0.001,
-            format="%.gf", 
+            format="%.g", 
             placeholder="Enter value...."
         )
 
