@@ -43,24 +43,28 @@ for i, feature in enumerate(selected_features):
             label=feature,
             min_value=min_val,
             max_value=max_val,
-            value=mean_val,
+            value=None,
             step=0.001,
-            format="%.6f" 
+            format="%.gf", 
+            placeholder="Enter value...."
         )
 
 
 if st.button("Predict"):
-    input_df = pd.DataFrame([user_inputs])
-    input_df = input_df[selected_features]
-    
-    prediction = model.predict(input_df)
-    prediction_proba = model.predict_proba(input_df)
-    
-    st.subheader("Prediction Result")
-    
-    if prediction[0] == 1:
-        st.warning(f"The model predicts a high likelihood of Parkinson's Disease.", icon="⚠️")
-        st.info(f"Confidence: {prediction_proba[0][1]*100:.2f}%")
+    if None in user_inputs.values():
+        st.error("Please fill in all the input fields before making a prediction.")
     else:
-        st.success(f"The model predicts a low likelihood of Parkinson's Disease.", icon="✅")
-        st.info(f"Confidence: {prediction_proba[0][0]*100:.2f}%")
+        input_df = pd.DataFrame([user_inputs])
+        input_df = input_df[selected_features]
+        
+        prediction = model.predict(input_df)
+        prediction_proba = model.predict_proba(input_df)
+        
+        st.subheader("Prediction Result")
+        
+        if prediction[0] == 1:
+            st.warning(f"The model predicts a high likelihood of Parkinson's Disease.", icon="⚠️")
+            st.info(f"Confidence: {prediction_proba[0][1]*100:.2f}%")
+        else:
+            st.success(f"The model predicts a low likelihood of Parkinson's Disease.", icon="✅")
+            st.info(f"Confidence: {prediction_proba[0][0]*100:.2f}%")
